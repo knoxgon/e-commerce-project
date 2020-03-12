@@ -1,12 +1,10 @@
 import React from "react";
 import Routes from './__route/'
-import { GlobalStyle } from "./AppStyle";
+import './main.css'
 
 const App = () => {
   return (
-    <GlobalStyle>
-      <Routes/>
-    </GlobalStyle>
+    <Routes/>
   );
 };
 
