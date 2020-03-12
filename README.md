@@ -5,6 +5,10 @@
 
 ## Deadline - 22-Mar/2020
 
+## Prototype
+!(ecomm-prototype.png)
+
+
 ## Purpose
 
 It is a hobby project in parallel with schoolwork and other private projects. I'm highly intrested in finance, stock market, banking and e-commerce. The core reason is to sharpen my skills in different techniques/frameworks/libraries used within ReactJS thus perform it simultaneously.
