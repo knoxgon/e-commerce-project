@@ -1,8 +1,12 @@
 import React from "react";
+import Routes from './__route/'
+import { GlobalStyle } from "./AppStyle";
 
 const App = () => {
   return (
-    <div>App state</div>
+    <GlobalStyle>
+      <Routes/>
+    </GlobalStyle>
   );
 };
 
