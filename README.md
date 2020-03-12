@@ -5,7 +5,7 @@
 
 ## Deadline - 22-Mar/2020
 
-## Prototype
+## Prototype (Microsoft Paint)
 ![Proto](https://github.com/knoxgon/e-commerce-project/blob/master/ecomm-prototype.png)
 
 
