@@ -6,7 +6,7 @@
 ## Deadline - 22-Mar/2020
 
 ## Prototype
-!(https://github.com/knoxgon/e-commerce-project/blob/master/ecomm-prototype.png)
+![Proto](https://github.com/knoxgon/e-commerce-project/blob/master/ecomm-prototype.png)
 
 
 ## Purpose
