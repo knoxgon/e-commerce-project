@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { ReactReduxFirebaseProvider } from 'react-redux-firebase';
 import App from './App';
-import { store, AuthIsLoaded } from './__redux/store';
+import { store, /*AuthIsLoaded*/ } from './__redux/store';
 import { rrf } from './__redux/conf';
 
 ReactDOM.render(
