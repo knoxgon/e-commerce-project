@@ -1,9 +1,11 @@
 import React from 'react';
-
+import { BodyWrapper } from './style';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <BodyWrapper>
+      <div>Homepage</div>
+    </BodyWrapper>
   );
 }
 
