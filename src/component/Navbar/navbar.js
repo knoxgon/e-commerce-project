@@ -16,15 +16,16 @@ const Navbar = () => {
   const PersonalLinks = () => {
     return (
       <NavbarLinkWrapper>
-        <NavbarLink to="/cart">
+        <NavbarLink>
           <NavbarImage icon={faShoppingCart}></NavbarImage>
-          <NavbarDescription>Cart</NavbarDescription>
+          <NavbarDescription to="/cart">Cart</NavbarDescription>
         </NavbarLink>
-        <NavbarLink to="/account">
+        <NavbarLink>
           <NavbarImage icon={faUserAlt}></NavbarImage>
-          <NavbarDescription>Account</NavbarDescription>
+          <NavbarDescription to="/account">Account</NavbarDescription>
         </NavbarLink>
-      </NavbarLinkWrapper>)
+      </NavbarLinkWrapper>
+    )
   }
   
   return (
