@@ -33,24 +33,21 @@ export const NavbarLinkWrapper = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  color: ${props => props.color ? props.color : '#9a9085'}
+  color: ${props => props.color ? props.color : '#9a9085'};
 `;
 
-export const NavbarLink = styled(Link)`
-  cursor: pointer;
+export const NavbarLink = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 2.5rem;
   font-weight: 600;
-  text-decoration: none;
-  color: inherit;
-  text-decoration: inherit;
   transition: 0.4s ease; 
   padding: 1rem;
   
   &:hover {
-    color: #23c682;
+    color: #267d9e;
+    background-color: black;
   }
 `;
 
