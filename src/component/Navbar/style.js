@@ -8,11 +8,6 @@ export const NavArea = styled.div`
   border-top: 0.5rem solid #2de262;
   border-bottom: 1px solid #f1eeee;
   font-family: 'Varela Round', sans-serif;
-
-
-  /* @media screen and(max-width: ) {
-    
-  } */
 `;
 
 export const NavbarItemWrapper = styled.div`
@@ -33,24 +28,21 @@ export const NavbarLinkWrapper = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  color: ${props => props.color ? props.color : '#9a9085'}
+  color: ${props => props.color ? props.color : '#9a9085'};
 `;
 
-export const NavbarLink = styled(Link)`
-  cursor: pointer;
+export const NavbarLink = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 2.5rem;
   font-weight: 600;
-  text-decoration: none;
-  color: inherit;
-  text-decoration: inherit;
   transition: 0.4s ease; 
   padding: 1rem;
   
   &:hover {
-    color: #23c682;
+    color: #267d9e;
+    background-color: black;
   }
 `;
 
@@ -60,7 +52,13 @@ export const NavbarImage = styled(FontAwesomeIcon)`
   font-size: ${props => props.textsize ? props.textsize : "1.7rem"};
 `;
 
-export const NavbarDescription = styled.div`
+export const NavbarDescription = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+  text-decoration: inherit;
   font-size: ${props => props.textsize ? props.textsize : "1.2rem"};
 `;
 
+export const NavbarDescriptionCenter = styled(NavbarDescription)`
+  font-family: 'Lato', sans-serif;
+`;
