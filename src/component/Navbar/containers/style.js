@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { NavbarLink } from '../style';
 
 export const ImageSlideContainer = styled.div`
   display: inline-flex;
@@ -48,4 +49,9 @@ export const Container = styled.div`
               0 22.3px 17.9px rgba(0, 0, 0, 0.072),
               0 41.8px 33.4px rgba(96, 148, 88, 0.086),
               0 100px 80px rgba(64, 255, 103, 0.12);
+
+  ${NavbarLink}:hover &  {
+    visibility: visible;
+    opacity: 1;
+  }
 `;
