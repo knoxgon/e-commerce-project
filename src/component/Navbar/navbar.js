@@ -3,13 +3,14 @@ import { NavArea, NavbarItemWrapper, NavbarLogo, NavbarLinkWrapper, NavbarLink, 
 import { connect } from 'react-redux';
 import { faShoppingCart, faCaretDown, faUserAlt } from '@fortawesome/free-solid-svg-icons'
 import { HoveredContainer } from './containers/hoverDiv';
+import { PARLOR, BEDROOM, KITCHEN, KIDSROOM } from '../../__misc/flags';
 
 const Navbar = () => {
   const [navLinkDescriptions] = useState([
-    {id: "plr", name: 'Parlor', route: '/parlor'},
-    {id: "bdrm", name: 'Bedroom', route: '/bedroom'},
-    {id: "ktcn", name: 'Kitchen', route: '/kitchen'},
-    {id: "chrom", name: 'Kids Room', route: '/childen-room'}
+    {id: PARLOR, name: 'Parlor', route: '/parlor'},
+    {id: BEDROOM, name: 'Bedroom', route: '/bedroom'},
+    {id: KITCHEN, name: 'Kitchen', route: '/kitchen'},
+    {id: KIDSROOM, name: 'Kids Room', route: '/childen-room'}
   ])
 
   const PersonalLinks = () => {
