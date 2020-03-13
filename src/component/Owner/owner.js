@@ -1,5 +1,5 @@
 import React from 'react';
-import { BodyWrapper } from "../emotion/shared";
+import { BodyWrapper } from "../styles/shared";
 import { connect } from "react-redux";
 
 
