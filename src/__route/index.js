@@ -9,9 +9,9 @@ const Routes = ({auth}) => {
   return (
     <Switch>
       <PrivateRoute exact path="/account" authenticated={auth.uid} />
-      <Route path="/home" component={Home} />
-      <Route path="/owner" component={Owner} />
-      <Redirect to="/home"></Redirect>
+      <Route exact path="/home" component={Home} />
+      <Route exact path="/owner" component={Owner} />
+      {/* <Redirect to="/home"></Redirect> */}
     </Switch>
   );
 }
