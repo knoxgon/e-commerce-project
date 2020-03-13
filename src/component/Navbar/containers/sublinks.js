@@ -6,6 +6,12 @@ const links = [
       { name: "Corner sofa", route: "/parlor/corner-sofa" },
       { name: "TV bench", route: "/parlor/tv-bench" },
       { name: "Coffee table", route: "/parlor/coffee-table" }
+    ],
+    assets: [
+      { picture: require("../../../assets/trails/parlor/sofa.jpg") },
+      { picture: require("../../../assets/trails/parlor/cornersofa.jpg") },
+      { picture: require("../../../assets/trails/parlor/tv.jpg") },
+      { picture: require("../../../assets/trails/parlor/table.jpg") }
     ]
   },
 ];
