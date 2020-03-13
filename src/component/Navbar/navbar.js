@@ -31,17 +31,15 @@ const Navbar = () => {
     <NavArea>
       <NavbarItemWrapper>
         <NavbarLogo src={require('../../assets/logo.png')}/>
-
         <NavbarLinkWrapper color="#176f4b">
           {navLinkDescriptions.map((item, i) => (
-            <NavbarLink to={item.route} key={i}>
-              <NavbarDescription textsize="1.85rem">{item.name}</NavbarDescription>
-              <NavbarImage textsize="1.35rem" icon={faCaretDown}></NavbarImage>
-              <HoveredContainer hoverValue={true} listItems={[{description: 'Heeeej'}, {description: 'asdasd'}, {description: 'asdasd'}]}></HoveredContainer>
+            <NavbarLink key={i}>
+              <NavbarDescriptionCenter to={item.route} textsize="1.7rem">{item.name}</NavbarDescriptionCenter>
+              <NavbarImage textsize="1.2rem" icon={faCaretDown}></NavbarImage>
+              <HoveredContainer sentId={item.id}></HoveredContainer>
             </NavbarLink>
           ))}
         </NavbarLinkWrapper>
-
         {PersonalLinks()}
       </NavbarItemWrapper>
     </NavArea>
