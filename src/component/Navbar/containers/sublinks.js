@@ -24,3 +24,7 @@ export const dedicateLinkPage = (id) => {
   // -> map and return matched element array
   return Object.values(links).filter(set => set[id])[0][id].map(elem => elem)
 }
+
+export const cherryPickAssets = (id) => {
+  return Object.values(links).filter(set => set[id])[0]['assets'].map(a => a.picture)
+}
