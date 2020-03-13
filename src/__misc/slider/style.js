@@ -6,3 +6,9 @@ const show = keyframes`
 export const Image = styled.img`
   width: 25rem;
 `;
+
+export const ImageWrapper = styled.div`
+  display: inline-flex;
+  flex-direction: row;
+  width: 50rem;
+`;
