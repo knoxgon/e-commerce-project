@@ -5,4 +5,17 @@ export default function PrivateRoute({
   component: Component,
   authenticated,
   ...rest
-}) {return (<Route {...rest} render={ props => authenticated ? <Component {...props} {...rest} /> : <Redirect to = {{pathname:  "/home" }} />}/>)}
+}) {
+  return (
+    <Route
+      {...rest}
+      render={props =>
+        authenticated ? (
+          <Component {...props} {...rest} />
+        ) : (
+          <Redirect to={{ pathname: "/home" }} />
+        )
+      }
+    />
+  );
+}
