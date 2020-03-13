@@ -1,14 +1,19 @@
-import React from 'react';
-import { Container } from './style';
+import React, { useState } from 'react';
+import { Container, SubLink, InnerWrapper, ImageSlideContainer } from './style';
+import Imager from '../../../__misc/slider/'
+import { dedicateLinkPage } from './sublinks';
 
-export const HoveredContainer = ({hoverValue, listItems}) => {
+export const HoveredContainer = ({sentId}) => {
   return (
-    <React.Fragment>
-      {listItems.map((item, i) => {
-        return <Container key={i} ifHover={hoverValue}>
-          <p>{item.description}</p>
-        </Container>
-      })}
-    </React.Fragment>
+    <Container>
+      <InnerWrapper>
+        {dedicateLinkPage(sentId).map((item, i) => {
+          return <SubLink to={item.route} key={i}>{item.name}</SubLink>
+        })}
+      </InnerWrapper>
+      <ImageSlideContainer>
+        <Imager targetId={sentId}/>
+      </ImageSlideContainer>
+    </Container>
   )
 }
