@@ -8,11 +8,6 @@ export const NavArea = styled.div`
   border-top: 0.5rem solid #2de262;
   border-bottom: 1px solid #f1eeee;
   font-family: 'Varela Round', sans-serif;
-
-
-  /* @media screen and(max-width: ) {
-    
-  } */
 `;
 
 export const NavbarItemWrapper = styled.div`
@@ -57,7 +52,9 @@ export const NavbarImage = styled(FontAwesomeIcon)`
   font-size: ${props => props.textsize ? props.textsize : "1.7rem"};
 `;
 
-export const NavbarDescription = styled.div`
+export const NavbarDescription = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+  text-decoration: inherit;
   font-size: ${props => props.textsize ? props.textsize : "1.2rem"};
 `;
-
