@@ -27,6 +27,20 @@ const links = [
       { picture: require("../../../assets/trails/bedroom/chestbed.jpg") },
       { picture: require("../../../assets/trails/bedroom/cushion2.jpg") },
     ]
+  },
+  //Kitchen
+  {
+    KITCHEN: [
+      { name: "Cabinet", route: "/kitchen/cabinet" },
+      { name: "Shelf", route: "/kitchen/shelf" },
+      { name: "Dining table set", route: "/kitchen/dining" }
+    ],
+    assets: [
+      { picture: require("../../../assets/trails/kitchen/tableset.jpg") },
+      { picture: require("../../../assets/trails/kitchen/cabinet.jpg") },
+      { picture: require("../../../assets/trails/kitchen/shelf.jpg") },
+      { picture: require("../../../assets/trails/kitchen/cabinet2.jpg") },
+    ]
   }
 ];
 
