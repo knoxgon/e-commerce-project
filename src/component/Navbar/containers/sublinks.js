@@ -41,6 +41,20 @@ const links = [
       { picture: require("../../../assets/trails/kitchen/shelf.jpg") },
       { picture: require("../../../assets/trails/kitchen/cabinet2.jpg") },
     ]
+  },
+  //Kidsroom
+  {
+    KIDSROOM: [
+      { name: "Nursery furniture sets", route: "/kitchen/nursery-set" },
+      { name: "Desk", route: "/kitchen/desk" },
+      { name: "Shelf set", route: "/kitchen/shelf-set" }
+    ],
+    assets: [
+      { picture: require("../../../assets/trails/kidsroom/furnset.jpg") },
+      { picture: require("../../../assets/trails/kidsroom/desk.jpg") },
+      { picture: require("../../../assets/trails/kidsroom/furnchild.jpg") },
+      { picture: require("../../../assets/trails/kidsroom/furnset2.jpg") },
+    ]
   }
 ];
 
