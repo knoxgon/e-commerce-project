@@ -17,10 +17,6 @@ It is a hobby project in parallel with schoolwork and other private projects. I'
 
 I've previously used angular but truth to be told, the ReactJs and vue are better with handling the single page applications and the ultimate tool towards the creation of hobby projects.
 
-## Why emotion library?
-
-With the heavy experience in `styled-components`, I believe the choice of `emotion` will have a great benefits towards my experience.
-
 ### run `npm install` followed by `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
