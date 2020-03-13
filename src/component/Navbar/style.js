@@ -58,3 +58,7 @@ export const NavbarDescription = styled(Link)`
   text-decoration: inherit;
   font-size: ${props => props.textsize ? props.textsize : "1.2rem"};
 `;
+
+export const NavbarDescriptionCenter = styled(NavbarDescription)`
+  font-family: 'Lato', sans-serif;
+`;
