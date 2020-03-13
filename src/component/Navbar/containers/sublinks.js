@@ -14,6 +14,20 @@ const links = [
       { picture: require("../../../assets/trails/parlor/table.jpg") }
     ]
   },
+  //Bedroom
+  {
+    BEDROOM: [
+      { name: "Mattress", route: "/bedroom/mattress" },
+      { name: "Chest bed", route: "/bedroom/chest-bed" },
+      { name: "Cushion", route: "/bedroom/cushion" }
+    ],
+    assets: [
+      { picture: require("../../../assets/trails/bedroom/cushion.jpg") },
+      { picture: require("../../../assets/trails/bedroom/mattress.jpg") },
+      { picture: require("../../../assets/trails/bedroom/chestbed.jpg") },
+      { picture: require("../../../assets/trails/bedroom/cushion2.jpg") },
+    ]
+  }
 ];
 
 export const dedicateLinkPage = (id) => {
