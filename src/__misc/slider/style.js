@@ -12,4 +12,8 @@ export const ImageWrapper = styled.div`
   flex-direction: row;
   width: 50rem;
   animation: ${show} 12.5s ease-in-out infinite;
+  animation-direction: alternate;
+  &:hover{
+    animation-play-state: paused;
+  }
 `;
