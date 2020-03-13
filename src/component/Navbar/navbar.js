@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavArea, NavbarItemWrapper, NavbarLogo, NavbarLinkWrapper, NavbarLink, NavbarImage, NavbarDescription } from './style';
+import { NavArea, NavbarItemWrapper, NavbarLogo, NavbarLinkWrapper, NavbarLink, NavbarImage, NavbarDescription, NavbarDescriptionCenter } from './style';
 import { connect } from 'react-redux';
 import { faShoppingCart, faCaretDown, faUserAlt } from '@fortawesome/free-solid-svg-icons'
 import { HoveredContainer } from './containers/hoverDiv';
