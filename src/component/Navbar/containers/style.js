@@ -41,6 +41,6 @@ export const Container = styled.div`
   background-color: #fdfdfd;
   padding: 1rem;
   border-top: 2px solid #2DE262;
-  transition: all 0.35s linear;
+  transition: all 0.30s linear;
   opacity: 0;
 `;
