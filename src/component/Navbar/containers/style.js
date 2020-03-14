@@ -17,9 +17,10 @@ export const InnerWrapper = styled.div`
 export const SubLink = styled(Link)`
   text-decoration: none;
   text-decoration: inherit;
-  color: #1b9425;
+  color: #061507;
   width: fit-content;
   margin: 0 auto;
+  font-family: 'Cuprum', sans-serif;
   font-weight: 500;
   padding-bottom: 1rem;
   &:hover {
