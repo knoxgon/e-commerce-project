@@ -60,5 +60,7 @@ export const NavbarDescription = styled(Link)`
 `;
 
 export const NavbarDescriptionCenter = styled(NavbarDescription)`
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
 `;
