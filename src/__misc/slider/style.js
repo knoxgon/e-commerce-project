@@ -5,6 +5,7 @@ const show = keyframes`
 `
 export const Image = styled.img`
   width: 25rem;
+  filter: saturate(5);
 `;
 
 export const ImageWrapper = styled.div`
