@@ -28,3 +28,9 @@ export const ItemBox = styled.div`
   margin: 1rem;
 `;
 
+export const ImageWrapper = styled.div`
+  position: relative;
+  min-width: 40rem;
+  max-width: 40rem;
+  height: 30rem;
+`;
