@@ -4,7 +4,7 @@ import { ProductWrapper, ContentTitle, ProductFavorite, ProductFavoriteWrapper, 
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
-const Product = (props) => {
+const Product = () => {
   return (
     <ProductContainer>
       <ContentTitle>Popular</ContentTitle>
