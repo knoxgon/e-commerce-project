@@ -60,6 +60,7 @@ export const ProductBoxBlur = styled.div`
 `;
 
 export const ProductBoxTitle = styled.p`
+  cursor: pointer;
   position: absolute;
   bottom: 0.5rem;
   font-family: 'Baloo Chettan 2', cursive;
