@@ -91,3 +91,11 @@ export const ItemBoxTag = styled.div`
   height: 5rem;
 `;
 
+export const ItemCart = styled(FontAwesomeIcon)`
+  font-size: 2.5rem;
+  color: #644f3e;
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+`;
+
