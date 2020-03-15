@@ -11,7 +11,7 @@ export const ContentTitle = styled.p`
   font-size: 5rem;
   text-align: center;
   margin: 2.5rem;
-  color: #bc802f
+  color: #bc802f;
 `;
 
 export const ItemWrapper = styled.div`
@@ -21,7 +21,7 @@ export const ItemWrapper = styled.div`
   align-content: flex-start;
 `;
 
-export const ItemBox = styled.div`
+export const ProductBox = styled.div`
   width: 40rem;
   max-width: 40rem;
   height: 30rem;
