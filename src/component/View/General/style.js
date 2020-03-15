@@ -73,7 +73,9 @@ export const ItemBoxTitle = styled.p`
 export const ItemBoxTagBlur = styled.div`
   position: absolute;
   top: 0;
+  opacity: 0.3;
   left: 0;
   width: 10rem;
+  background-color: #e3edf1;
   height: 5rem;
 `;
