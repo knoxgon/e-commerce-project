@@ -61,7 +61,11 @@ export const ItemBoxBlur = styled.div`
 export const ItemBoxDescription = styled.p`
   position: absolute;
   bottom: 0.5rem;
+  font-family: 'Baloo Chettan 2', cursive;
   left: 1rem;  
   padding: 0;
   margin: 0;
+  color: #6f5f22;
+  font-size: 2.25rem;
+  font-weight: 600;
 `;
