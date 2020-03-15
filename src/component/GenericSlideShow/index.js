@@ -8,6 +8,15 @@ const GenericSlideShow = (props) => {
     require("../../assets/home/parlortrailer2.png"),
     require("../../assets/home/parlortrailer.png")
   ]);
+  return (
+    <SlideWrapper>
+      <SlideContainer>
+        {imgs.map((elem, i) => {
+          return <ImageElement src={elem}/>
+        })}
+      </SlideContainer>
+    </SlideWrapper>
+  );
 }
 
 export default GenericSlideShow
