@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export const GeneralContainer = styled.div`
+export const ProductContainer = styled.div`
   margin: 7.5rem;
   display: flex;
   flex-direction: column;
