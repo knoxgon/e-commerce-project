@@ -121,6 +121,7 @@ export const ProductFavoriteWrapper = styled.div`
 
 export const ProductFavorite = styled(FontAwesomeIcon)`
   font-size: 3rem;
+  mix-blend-mode: difference;
   color: #ffffff;
   cursor: pointer;
 `;
