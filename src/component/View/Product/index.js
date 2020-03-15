@@ -41,6 +41,22 @@ const Product = (props) => {
           </ProductImageWrapper>
         </ProductBox>
 
+        <ProductBox>
+          <ProductImageWrapper>
+            <ProductBoxImage src={require('../../../assets/bedroom/bedroom3.jpg')}/>
+            <ProductBoxBlur/>
+            <ProductBoxTitle>Golden Baronet</ProductBoxTitle>
+            <ProductBoxTagBlur/>
+            <ProductBoxTag>
+              <ProductCart icon={faCartPlus}></ProductCart>
+              <ProductPriceTag>$79.99</ProductPriceTag>
+            </ProductBoxTag>
+            <ProductFavoriteWrapper>
+              <ProductFavorite icon={faHeart}></ProductFavorite>
+            </ProductFavoriteWrapper>
+          </ProductImageWrapper>
+        </ProductBox>
+
       </ProductWrapper>
     </ProductContainer>
   )
