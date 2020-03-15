@@ -14,3 +14,10 @@ export const ContentTitle = styled.p`
   color: #bc802f
 `;
 
+export const ItemWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+`;
+
