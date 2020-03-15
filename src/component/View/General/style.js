@@ -51,6 +51,7 @@ export const ItemBoxImage = styled.img`
 export const ItemBoxBlur = styled.div`
   position: absolute;
   bottom: 0rem;
+  background-color: #fff;
   width: 100%;
   height: 4rem;
 `;
