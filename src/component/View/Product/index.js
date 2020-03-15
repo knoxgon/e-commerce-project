@@ -11,6 +11,7 @@ const Product = (props) => {
           <ProductImageWrapper>
             <ProductBoxImage src={require('../../../assets/bedroom/bedroom2.jpg')}/>
             <ProductBoxBlur/>
+            <ProductBoxTitle>Rosefield Luxury</ProductBoxTitle>
           </ProductImageWrapper>
         </ProductBox>
 
