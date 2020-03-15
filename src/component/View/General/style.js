@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const GeneralContainer = styled.div`
   margin: 7.5rem;
@@ -118,3 +119,8 @@ export const ProductFavoriteWrapper = styled.div`
   height: 3rem;
 `;
 
+export const ProductFavorite = styled(FontAwesomeIcon)`
+  font-size: 3rem;
+  color: #ffffff;
+  cursor: pointer;
+`;
