@@ -29,6 +29,7 @@ export const SubLink = styled(Link)`
 `;
 
 export const Container = styled.div`
+  z-index: 3;
   position: absolute;
   width: auto;
   visibility: hidden;
