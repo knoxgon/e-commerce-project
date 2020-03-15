@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 export const NavArea = styled.div`
   height: 10rem;
   border-top: 0.5rem solid #2de262;
-  border-bottom: 1px solid #f1eeee;
   font-family: 'Varela Round', sans-serif;
 `;
 
