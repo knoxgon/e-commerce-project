@@ -69,3 +69,11 @@ export const ItemBoxTitle = styled.p`
   font-size: 2.25rem;
   font-weight: 600;
 `;
+
+export const ItemBoxTagBlur = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 5rem;
+`;
