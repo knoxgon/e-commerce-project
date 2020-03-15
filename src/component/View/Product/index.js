@@ -5,6 +5,8 @@ const Product = (props) => {
   return (
     <ProductContainer>
       <ContentTitle>Popular</ContentTitle>
+      <ProductWrapper>
+      </ProductWrapper>
     </ProductContainer>
   )
 }
