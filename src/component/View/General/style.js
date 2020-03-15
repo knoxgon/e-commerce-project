@@ -76,6 +76,7 @@ export const ItemBoxTagBlur = styled.div`
   opacity: 0.3;
   left: 0;
   width: 10rem;
+  border-bottom-right-radius: 20px;
   background-color: #e3edf1;
   height: 5rem;
 `;
