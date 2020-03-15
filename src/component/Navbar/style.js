@@ -3,10 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 export const NavArea = styled.div`
-  width: 100vw;
   height: 10rem;
   border-top: 0.5rem solid #2de262;
-  border-bottom: 1px solid #f1eeee;
   font-family: 'Varela Round', sans-serif;
 `;
 
@@ -60,5 +58,7 @@ export const NavbarDescription = styled(Link)`
 `;
 
 export const NavbarDescriptionCenter = styled(NavbarDescription)`
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
 `;
