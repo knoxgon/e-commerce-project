@@ -25,6 +25,22 @@ const Product = (props) => {
           </ProductImageWrapper>
         </ProductBox>
 
+        <ProductBox>
+          <ProductImageWrapper>
+            <ProductBoxImage src={require('../../../assets/bedroom/bedroom1.jpg')}/>
+            <ProductBoxBlur/>
+            <ProductBoxTitle>Parlor Suite Deluxe</ProductBoxTitle>
+            <ProductBoxTagBlur/>
+            <ProductBoxTag>
+              <ProductCart icon={faCartPlus}></ProductCart>
+              <ProductPriceTag>$6842</ProductPriceTag>
+            </ProductBoxTag>
+            <ProductFavoriteWrapper>
+              <ProductFavorite icon={faHeart}></ProductFavorite>
+            </ProductFavoriteWrapper>
+          </ProductImageWrapper>
+        </ProductBox>
+
       </ProductWrapper>
     </ProductContainer>
   )
