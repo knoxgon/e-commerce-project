@@ -52,6 +52,7 @@ export const ItemBoxBlur = styled.div`
   position: absolute;
   bottom: 0rem;
   background-color: #fff;
+  opacity: 0.9;
   width: 100%;
   height: 4rem;
 `;
