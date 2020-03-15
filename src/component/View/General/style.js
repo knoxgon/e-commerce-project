@@ -33,4 +33,5 @@ export const ImageWrapper = styled.div`
   min-width: 40rem;
   max-width: 40rem;
   height: 30rem;
+  overflow: hidden;
 `;
