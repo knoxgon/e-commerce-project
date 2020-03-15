@@ -1,8 +1,12 @@
-import React from 'react';
+import React from 'react'
+import { HomePageWrapper } from './style'
+import GenericSlideShow from '../GenericSlideShow';
 
 const Home = () => {
   return (
-    <div>Homepage</div>
+    <HomePageWrapper>
+      <GenericSlideShow></GenericSlideShow>
+    </HomePageWrapper>
   );
 }
 
