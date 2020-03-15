@@ -57,3 +57,11 @@ export const ItemBoxBlur = styled.div`
   width: 100%;
   height: 4rem;
 `;
+
+export const ItemBoxDescription = styled.p`
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;  
+  padding: 0;
+  margin: 0;
+`;
