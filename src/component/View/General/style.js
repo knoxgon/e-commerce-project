@@ -6,3 +6,11 @@ export const GeneralWrapper = styled.div`
   flex-direction: column;
   min-width: 40rem;
 `;
+
+export const ContentTitle = styled.p`
+  font-size: 5rem;
+  text-align: center;
+  margin: 2.5rem;
+  color: #bc802f
+`;
+
