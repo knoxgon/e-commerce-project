@@ -83,6 +83,7 @@ export const ItemBoxTagBlur = styled.div`
 
 export const ItemBoxTag = styled.div`
   position: absolute;
+  display:inline-flex;
   top: 0;
   left: 0;
   z-index: 2;
