@@ -100,7 +100,7 @@ export const ItemCart = styled(FontAwesomeIcon)`
   cursor: pointer;
 `;
 
-export const ItemBoxTagContent = styled.p`
+export const ProductPriceTag = styled.p`
   font-size: 1.75rem;
   font-family: 'Baloo Chettan 2', cursive;
   font-weight: 600;
