@@ -4,6 +4,7 @@ import { ProductWrapper, ContentTitle, ProductFavorite, ProductFavoriteWrapper, 
 const Product = (props) => {
   return (
     <ProductContainer>
+      <ContentTitle>Popular</ContentTitle>
     </ProductContainer>
   )
 }
