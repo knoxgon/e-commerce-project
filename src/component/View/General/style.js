@@ -36,7 +36,7 @@ export const ImageWrapper = styled.div`
   overflow: hidden;
 `;
 
-export const ItemBoxImage = styled.img`
+export const ProductBoxImage = styled.img`
   min-width: 40rem;
   max-width: 40rem;
   height: 30rem;
