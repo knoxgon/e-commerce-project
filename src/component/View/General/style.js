@@ -41,6 +41,8 @@ export const ItemBoxImage = styled.img`
   max-width: 40rem;
   height: 30rem;
   transition: transform 1.5s  ease;
+  filter: saturate(4);
+
   &:hover {
     transform: scale(1.1);
   }
