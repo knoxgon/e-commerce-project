@@ -6,6 +6,7 @@ const slide = keyframes`
   90%, 100%{ transform:  translateX(-200%);}
 `
 export const SlideWrapper = styled.div`
+  width: 100vw;
   overflow: hidden;
 `;
 

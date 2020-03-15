@@ -12,7 +12,7 @@ const GenericSlideShow = (props) => {
     <SlideWrapper>
       <SlideContainer>
         {imgs.map((elem, i) => {
-          return <ImageElement key={i} src={elem}/>
+          return <ImageElement src={elem}/>
         })}
       </SlideContainer>
     </SlideWrapper>

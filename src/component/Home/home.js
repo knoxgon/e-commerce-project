@@ -1,13 +1,11 @@
 import React from 'react'
 import { HomePageWrapper } from './style'
 import GenericSlideShow from '../GenericSlideShow';
-import Product from '../View/Product';
 
 const Home = () => {
   return (
     <HomePageWrapper>
       <GenericSlideShow></GenericSlideShow>
-      <Product></Product>
     </HomePageWrapper>
   );
 }
