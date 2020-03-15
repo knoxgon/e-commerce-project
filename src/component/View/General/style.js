@@ -28,7 +28,7 @@ export const ProductBox = styled.div`
   margin: 1rem;
 `;
 
-export const ImageWrapper = styled.div`
+export const ProductImageWrapper = styled.div`
   position: relative;
   min-width: 40rem;
   max-width: 40rem;
@@ -48,7 +48,7 @@ export const ProductBoxImage = styled.img`
   }
 `;
 
-export const ItemBoxBlur = styled.div`
+export const ProductBoxBlur = styled.div`
   position: absolute;
   bottom: 0rem;
   filter: blur(9px);
@@ -58,7 +58,7 @@ export const ItemBoxBlur = styled.div`
   height: 4rem;
 `;
 
-export const ItemBoxTitle = styled.p`
+export const ProductBoxTitle = styled.p`
   position: absolute;
   bottom: 0.5rem;
   font-family: 'Baloo Chettan 2', cursive;
@@ -70,7 +70,7 @@ export const ItemBoxTitle = styled.p`
   font-weight: 600;
 `;
 
-export const ItemBoxTagBlur = styled.div`
+export const ProductBoxTagBlur = styled.div`
   position: absolute;
   top: 0;
   opacity: 0.3;
@@ -81,7 +81,7 @@ export const ItemBoxTagBlur = styled.div`
   height: 5rem;
 `;
 
-export const ItemBoxTag = styled.div`
+export const ProductBoxTag = styled.div`
   position: absolute;
   display:inline-flex;
   top: 0;
@@ -91,7 +91,7 @@ export const ItemBoxTag = styled.div`
   height: 5rem;
 `;
 
-export const ItemCart = styled(FontAwesomeIcon)`
+export const ProductCart = styled(FontAwesomeIcon)`
   font-size: 2.5rem;
   color: #644f3e;
   margin: 0;
