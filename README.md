@@ -3,13 +3,7 @@
 
 ## Project is hosted at http://efurn.surge.sh
 
-### Kickoff date - 12-Mar/2020
-
-### Deadline - 22-Mar/2020
-
-### Prototype (Microsoft Paint)
-![Proto](https://github.com/knoxgon/e-commerce-project/blob/master/ecomm-prototype.png)
-
+### Kickoff date - 12-Mar/2020 - Deadline - 22-Mar/2020
 
 ## Purpose
 
