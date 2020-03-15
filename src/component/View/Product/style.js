@@ -75,7 +75,7 @@ export const ProductBoxTitle = styled.p`
 export const ProductBoxTagBlur = styled.div`
   position: absolute;
   top: 0;
-  opacity: 0.3;
+  opacity: 0.5;
   left: 0;
   width: 10rem;
   border-bottom-right-radius: 20px;
