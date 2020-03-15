@@ -100,3 +100,13 @@ export const ItemCart = styled(FontAwesomeIcon)`
   cursor: pointer;
 `;
 
+export const ItemBoxTagContent = styled.p`
+  font-size: 1.75rem;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  color: #644f3e;
+  margin-top: 1rem;
+`;
+
