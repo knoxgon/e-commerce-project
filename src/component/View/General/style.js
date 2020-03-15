@@ -47,3 +47,10 @@ export const ItemBoxImage = styled.img`
     transform: scale(1.1);
   }
 `;
+
+export const ItemBoxBlur = styled.div`
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  height: 4rem;
+`;
