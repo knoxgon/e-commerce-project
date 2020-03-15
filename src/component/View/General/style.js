@@ -85,6 +85,7 @@ export const ItemBoxTag = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
   width: 10rem;
   height: 5rem;
 `;
