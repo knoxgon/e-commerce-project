@@ -40,4 +40,7 @@ export const ItemBoxImage = styled.img`
   min-width: 40rem;
   max-width: 40rem;
   height: 30rem;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
