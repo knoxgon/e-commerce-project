@@ -110,3 +110,11 @@ export const ProductPriceTag = styled.p`
   margin-top: 1rem;
 `;
 
+export const ProductFavoriteWrapper = styled.div`
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 3.2rem;
+  height: 3rem;
+`;
+
