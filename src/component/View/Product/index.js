@@ -6,6 +6,12 @@ const Product = (props) => {
     <ProductContainer>
       <ContentTitle>Popular</ContentTitle>
       <ProductWrapper>
+
+        <ProductBox>
+          <ProductImageWrapper>
+          </ProductImageWrapper>
+        </ProductBox>
+
       </ProductWrapper>
     </ProductContainer>
   )
