@@ -80,3 +80,12 @@ export const ItemBoxTagBlur = styled.div`
   background-color: #e3edf1;
   height: 5rem;
 `;
+
+export const ItemBoxTag = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 5rem;
+`;
+
