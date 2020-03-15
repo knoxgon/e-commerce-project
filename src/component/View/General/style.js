@@ -97,5 +97,6 @@ export const ItemCart = styled(FontAwesomeIcon)`
   margin: 0;
   margin-top: 1rem;
   margin-right: 1rem;
+  cursor: pointer;
 `;
 
