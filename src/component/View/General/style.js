@@ -51,6 +51,7 @@ export const ItemBoxImage = styled.img`
 export const ItemBoxBlur = styled.div`
   position: absolute;
   bottom: 0rem;
+  filter: blur(9px);
   background-color: #fff;
   opacity: 0.9;
   width: 100%;
