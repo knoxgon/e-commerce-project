@@ -21,3 +21,10 @@ export const ItemWrapper = styled.div`
   align-content: flex-start;
 `;
 
+export const ItemBox = styled.div`
+  width: 40rem;
+  max-width: 40rem;
+  height: 30rem;
+  margin: 1rem;
+`;
+
