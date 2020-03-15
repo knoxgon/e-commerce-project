@@ -58,7 +58,7 @@ export const ItemBoxBlur = styled.div`
   height: 4rem;
 `;
 
-export const ItemBoxDescription = styled.p`
+export const ItemBoxTitle = styled.p`
   position: absolute;
   bottom: 0.5rem;
   font-family: 'Baloo Chettan 2', cursive;
