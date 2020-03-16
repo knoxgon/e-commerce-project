@@ -3,11 +3,13 @@ import { connect } from 'react-redux';
 import { ProductWrapper, ContentTitle, ProductFavorite, ProductFavoriteWrapper, ProductBoxTagBlur, ProductBoxTitle, ProductImageWrapper, ProductBox, ProductContainer, ProductBoxImage, ProductBoxBlur, ProductBoxTag, ProductPriceTag, ProductCart } from './style';
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import Filter from '../Filter';
 
 const Product = () => {
   return (
     <ProductContainer>
       <ContentTitle>Popular</ContentTitle>
+      <Filter></Filter>
       <ProductWrapper>
 
         <ProductBox>
