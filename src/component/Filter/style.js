@@ -28,6 +28,8 @@ export const FilterWrapper = styled.div`
   margin-right: 2rem;
   width: 12rem;
   justify-content: center;
+  transition: 0.5s ease;
+  border-radius: 10px;
 
   &:hover {
     color: white;
