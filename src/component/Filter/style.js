@@ -58,6 +58,7 @@ export const FilterOption = styled.p`
   font-size: 1.75rem;
   white-space: nowrap;
   font-weight: 600;
+  font-family: 'Baloo 2', cursive;
 `;
 
 export const FilterIcon = styled(FontAwesomeIcon)`
