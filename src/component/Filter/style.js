@@ -15,4 +15,5 @@ export const FilterWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
+  margin-right: 2rem;
 `;
