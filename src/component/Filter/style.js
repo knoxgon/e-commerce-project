@@ -23,3 +23,7 @@ export const FilterWrapper = styled.div`
     background-color: #2ba79c;
   }
 `;
+
+export const FilterOption = styled.p`
+  margin: 0;
+`;
