@@ -1,7 +1,7 @@
 import React from 'react'
 import { HomePageWrapper } from './style'
 import GenericSlideShow from '../GenericSlideShow';
-import Product from '../View/Product';
+import Product from '../Product';
 
 const Home = () => {
   return (

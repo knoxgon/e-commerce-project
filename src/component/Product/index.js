@@ -12,7 +12,7 @@ const Product = () => {
 
         <ProductBox>
           <ProductImageWrapper>
-            <ProductBoxImage src={require('../../../assets/bedroom/bedroom2.jpg')}/>
+            <ProductBoxImage src={require('../../assets/bedroom/bedroom2.jpg')}/>
             <ProductBoxBlur/>
             <ProductBoxTitle>Rosefield Luxury</ProductBoxTitle>
             <ProductBoxTagBlur/>
@@ -28,7 +28,7 @@ const Product = () => {
 
         <ProductBox>
           <ProductImageWrapper>
-            <ProductBoxImage src={require('../../../assets/bedroom/bedroom1.jpg')}/>
+            <ProductBoxImage src={require('../../assets/bedroom/bedroom1.jpg')}/>
             <ProductBoxBlur/>
             <ProductBoxTitle>Parlor Suite Deluxe</ProductBoxTitle>
             <ProductBoxTagBlur/>
@@ -44,7 +44,7 @@ const Product = () => {
 
         <ProductBox>
           <ProductImageWrapper>
-            <ProductBoxImage src={require('../../../assets/bedroom/bedroom3.jpg')}/>
+            <ProductBoxImage src={require('../../assets/bedroom/bedroom3.jpg')}/>
             <ProductBoxBlur/>
             <ProductBoxTitle>Golden Baronet</ProductBoxTitle>
             <ProductBoxTagBlur/>
