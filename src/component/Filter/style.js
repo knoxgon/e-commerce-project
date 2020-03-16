@@ -25,6 +25,13 @@ export const FilterWrapper = styled.div`
     color: white;
     background-color: #2ba79c;
   }
+
+  @media screen and (max-width: ${Query.Theme.Desktop[980]}) {
+    margin-right: 0rem;
+    &:not(:nth-child(1)) + &:not(:nth-child(3)) {
+      display: none;
+    }
+  }
 `;
 
 export const FilterOption = styled.p`
