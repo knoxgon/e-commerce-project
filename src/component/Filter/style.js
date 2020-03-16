@@ -15,7 +15,9 @@ export const FilterWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
+  color: #157270;
   margin-right: 2rem;
+
   &:hover {
     color: white;
     background-color: #2ba79c;
