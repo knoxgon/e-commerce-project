@@ -9,6 +9,8 @@ export const FilterAreaContainer = styled.div`
   margin: 0 auto;
   border-radius: 10px;
   justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 
   @media screen and (max-width: ${Query.Theme.Desktop[989]}){
     width: 40rem;
