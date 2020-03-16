@@ -6,11 +6,9 @@ export const FilterAreaContainer = styled.div`
   display: flex;
   flex-direction: row;
   border: 1px dashed #f5efef;
-  margin: 0 auto;
   border-radius: 10px;
   justify-content: center;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin: 3rem auto 3rem auto;
 
   @media screen and (max-width: ${Query.Theme.Desktop[989]}){
     width: 40rem;
