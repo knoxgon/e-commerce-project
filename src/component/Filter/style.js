@@ -16,4 +16,8 @@ export const FilterWrapper = styled.div`
   align-items: center;
   cursor: pointer;
   margin-right: 2rem;
+  &:hover {
+    color: white;
+    background-color: #2ba79c;
+  }
 `;
