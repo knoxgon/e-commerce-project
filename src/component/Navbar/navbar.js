@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavArea, NavbarItemWrapper, NavbarLogo, NavbarLinkWrapper, NavbarLink, NavbarImage, NavbarDescription, NavbarDescriptionCenter } from './style';
 import { connect } from 'react-redux';
-import { faShoppingCart, faCaretDown, faUserAlt } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart, faCaretDown, faUserAlt, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { HoveredContainer } from './containers/hoverDiv';
 import { PARLOR, BEDROOM, KITCHEN, KIDSROOM } from '../../__misc/flags';
 
@@ -16,6 +16,10 @@ const Navbar = () => {
   const PersonalLinks = () => {
     return (
       <NavbarLinkWrapper>
+        <NavbarLink>
+          <NavbarImage icon={faHeart}></NavbarImage>
+          <NavbarDescription to="/favorites">Favorites</NavbarDescription>
+        </NavbarLink>
         <NavbarLink>
           <NavbarImage icon={faShoppingCart}></NavbarImage>
           <NavbarDescription to="/cart">Cart</NavbarDescription>

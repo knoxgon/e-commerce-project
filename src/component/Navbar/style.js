@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const NavArea = styled.div`
   height: 10rem;
   border-top: 0.5rem solid #2de262;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Baloo 2', cursive;
 `;
 
 export const NavbarItemWrapper = styled.div`
@@ -58,7 +58,7 @@ export const NavbarDescription = styled(Link)`
 `;
 
 export const NavbarDescriptionCenter = styled(NavbarDescription)`
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Baloo 2', cursive;
   font-size: 2rem;
   font-weight: 500;
 `;

@@ -20,7 +20,7 @@ export const SubLink = styled(Link)`
   color: #061507;
   width: fit-content;
   margin: 0 auto;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Baloo 2', cursive;
   font-weight: 500;
   padding-bottom: 1rem;
   &:hover {

@@ -13,6 +13,7 @@ export const ContentTitle = styled.p`
   text-align: center;
   margin: 2.5rem;
   color: #bc802f;
+  font-family: 'Baloo 2', cursive;
 `;
 
 export const ProductWrapper = styled.div`
@@ -63,7 +64,7 @@ export const ProductBoxTitle = styled.p`
   cursor: pointer;
   position: absolute;
   bottom: 0.5rem;
-  font-family: 'Baloo Chettan 2', cursive;
+  font-family: 'Baloo 2', cursive;
   left: 1rem;  
   padding: 0;
   margin: 0;
@@ -104,7 +105,7 @@ export const ProductCart = styled(FontAwesomeIcon)`
 
 export const ProductPriceTag = styled.p`
   font-size: 1.75rem;
-  font-family: 'Baloo Chettan 2', cursive;
+  font-family: 'Baloo 2', cursive;
   font-weight: 600;
   margin: 0;
   text-align: center;

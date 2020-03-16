@@ -3,16 +3,18 @@ import { connect } from 'react-redux';
 import { ProductWrapper, ContentTitle, ProductFavorite, ProductFavoriteWrapper, ProductBoxTagBlur, ProductBoxTitle, ProductImageWrapper, ProductBox, ProductContainer, ProductBoxImage, ProductBoxBlur, ProductBoxTag, ProductPriceTag, ProductCart } from './style';
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import Filter from '../Filter';
 
 const Product = () => {
   return (
     <ProductContainer>
-      <ContentTitle>Popular</ContentTitle>
+      <ContentTitle>Categories</ContentTitle>
+      <Filter></Filter>
       <ProductWrapper>
 
         <ProductBox>
           <ProductImageWrapper>
-            <ProductBoxImage src={require('../../../assets/bedroom/bedroom2.jpg')}/>
+            <ProductBoxImage src={require('../../assets/bedroom/bedroom2.jpg')}/>
             <ProductBoxBlur/>
             <ProductBoxTitle>Rosefield Luxury</ProductBoxTitle>
             <ProductBoxTagBlur/>
@@ -28,7 +30,7 @@ const Product = () => {
 
         <ProductBox>
           <ProductImageWrapper>
-            <ProductBoxImage src={require('../../../assets/bedroom/bedroom1.jpg')}/>
+            <ProductBoxImage src={require('../../assets/bedroom/bedroom1.jpg')}/>
             <ProductBoxBlur/>
             <ProductBoxTitle>Parlor Suite Deluxe</ProductBoxTitle>
             <ProductBoxTagBlur/>
@@ -44,7 +46,7 @@ const Product = () => {
 
         <ProductBox>
           <ProductImageWrapper>
-            <ProductBoxImage src={require('../../../assets/bedroom/bedroom3.jpg')}/>
+            <ProductBoxImage src={require('../../assets/bedroom/bedroom3.jpg')}/>
             <ProductBoxBlur/>
             <ProductBoxTitle>Golden Baronet</ProductBoxTitle>
             <ProductBoxTagBlur/>
