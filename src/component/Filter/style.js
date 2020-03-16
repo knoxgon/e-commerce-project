@@ -18,6 +18,8 @@ export const FilterWrapper = styled.div`
   cursor: pointer;
   color: #157270;
   margin-right: 2rem;
+  width: 12rem;
+  justify-content: center;
 
   &:hover {
     color: white;
