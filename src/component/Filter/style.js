@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const FilterAreaContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -8,3 +9,10 @@ export const FilterAreaContainer = styled.div`
   margin: 0 auto;
 `;
 
+export const FilterWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+`;
