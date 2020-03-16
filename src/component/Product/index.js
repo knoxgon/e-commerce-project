@@ -8,7 +8,7 @@ import Filter from '../Filter';
 const Product = () => {
   return (
     <ProductContainer>
-      <ContentTitle>Popular</ContentTitle>
+      <ContentTitle>Categories</ContentTitle>
       <Filter></Filter>
       <ProductWrapper>
 
