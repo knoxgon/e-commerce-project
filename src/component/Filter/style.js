@@ -58,6 +58,7 @@ export const FilterOption = styled.p`
   font-size: 1.75rem;
   white-space: nowrap;
   font-weight: 600;
+  user-select: none;
   font-family: 'Baloo 2', cursive;
 `;
 
