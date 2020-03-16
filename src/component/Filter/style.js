@@ -36,8 +36,17 @@ export const FilterWrapper = styled.div`
     background-color: #2ba79c;
   }
 
-  @media screen and (max-width: ${Query.Theme.Desktop[980]}) {
+  &:last-child {
     margin-right: 0rem;
+  }
+
+  @media screen and (max-width: ${Query.Theme.Desktop[980]}) {
+    &:not(:nth-child(3)) {
+      margin-right: 0.5rem;
+    }
+    &:nth-child(3) {
+      margin-right: 0;
+    }
     &:not(:nth-child(1)) + &:not(:nth-child(3)) {
       display: none;
     }
