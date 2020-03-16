@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const FilterAreaContainer = styled.div`
   display: flex;
@@ -28,4 +29,8 @@ export const FilterOption = styled.p`
   margin: 0;
   font-size: 1.75rem;
   font-weight: 600;
+`;
+
+export const FilterIcon = styled(FontAwesomeIcon)`
+  font-size: 2.75rem;
 `;
