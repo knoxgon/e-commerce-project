@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export const FilterAreaContainer = styled.div`
   display: flex;
   flex-direction: row;
-  width: calc(100vw - 57rem);
-  min-width: 40rem;
-  max-width: 123rem;
+  border: 1px dashed #f5efef;
   margin: 0 auto;
+  border-radius: 10px;
+  justify-content: center;
 `;
 
 export const FilterWrapper = styled.div`
