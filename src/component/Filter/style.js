@@ -28,6 +28,7 @@ export const FilterWrapper = styled.div`
 export const FilterOption = styled.p`
   margin: 0;
   font-size: 1.75rem;
+  white-space: nowrap;
   font-weight: 600;
 `;
 
