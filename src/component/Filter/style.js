@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Query from '../../__misc/media/theme';
 
 export const FilterAreaContainer = styled.div`
   display: flex;
@@ -8,6 +9,13 @@ export const FilterAreaContainer = styled.div`
   margin: 0 auto;
   border-radius: 10px;
   justify-content: center;
+
+  @media screen and (max-width: ${Query.Theme.Desktop[989]}){
+    width: 40rem;
+  }
+  @media screen and (min-width: ${Query.Theme.Desktop[990]}) and (max-width: ${Query.Theme.Desktop[1409]}){
+    width: 82rem;
+  }
 `;
 
 export const FilterWrapper = styled.div`
